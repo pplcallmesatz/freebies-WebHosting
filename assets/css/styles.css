@@ -1,0 +1,287 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
+}
+
+/*Navbar Overrides*/
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-brand .logo{
+    height: 34px;
+}
+.navbar .navbar-nav li a {
+  opacity: 0.8;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #414141;
+}
+.navbar .navbar-nav li:not(:last-child) a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Button Overrides*/
+.btn.btn-primary{
+     font-size: 13px;
+    font-weight: 300;
+    background-color: #de3c3c;
+    border-color: #de3c3c;
+    opacity: 1 !important;
+    color: #ffffff !important;
+    outline: none !important;
+    box-shadow: none !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn.btn-primary:hover,.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+     background-color: #de3c3c;
+    border-color: #de3c3c;
+    opacity: 0.85 !important;
+    color: #ffffff !important; 
+    outline: none !important;
+    box-shadow: none !important;
+}
+.btn.btn-primary img{
+    margin-left: 10px;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/*Hero Section*/
+ .hero, .contents {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+.hero .row{
+     align-items: center;
+     align-content: center;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212121;
+    margin-bottom: 15px;
+}
+.hero .title + h4 {
+     max-width: 480px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #c5c5c5;
+    margin-bottom: 30px;
+}
+
+.card {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+      border: solid 2px rgba(197, 197, 197, 0.15);
+    max-width: 480px;
+    overflow: hidden;
+        box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.0);
+    transition: all linear 0.15s;
+    -webkit-transition: all linear 0.15s;
+    -moz-transition: all linear 0.15s;
+    -o-transition: all linear 0.15s;
+}
+.icon{
+    width: 60px;
+        height: 60px;
+    background-color: rgba(216, 216, 216, 0.1);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.title-sm {
+      color: #212121;
+font-size: 18px;
+      font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title-sm + p {
+     font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #c5c5c5;
+    max-width: 360px;
+}
+.mt-130{
+    margin-top: 130px;
+}
+.card:hover{
+    background-color: #de3c3c;
+    box-shadow: 0 4px 15px 0 rgba(7, 42, 68, 0.1);
+    position: relative;
+    border:  none;
+}
+.card:hover:before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    background-color: #ffaa64;
+      opacity: 0.5;
+    left: -100px;
+    top: -100px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+        
+}
+.card:hover:after {
+    content: "";
+    width: 150px;
+    height: 200px;
+    background-color: #c00000;
+      opacity: 0.4;
+    right: -75px;
+    top: -30px;
+    position: absolute;
+    border-radius: 100px 0px 50px 100px;
+    z-index: 0;
+        
+}
+.card:hover .icon {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+.card:hover .icon svg path{
+    fill: #414141;
+}
+.card:hover .title-sm, .card:hover .title-sm + p {
+    color: #ffffff;
+}
+
+/*Banner*/
+.banner {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-image: url(../img/jacob.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+.banner .title {
+    color: #ffffff;
+}
+.banner p {
+      font-size: 14px;
+     color: #c5c5c5;
+    margin-bottom: 30px;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-logo{
+    height: 35px;
+}
+footer span {
+     font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #c5c5c5;
+    margin-left: 60px;
+    
+}
+/*Testimonials*/
+.testimonials {
+    text-align: center;
+}
+.slider-content{
+    position: relative;
+}
+.quotesImg {
+    position: absolute;
+    width: 140px;
+    left:    100px;
+}
+.profile-img{
+    height: 160px;
+    width: 160px;
+background:  rgba(197, 197, 197, 0.1);
+    border-radius: 50%;
+    padding: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.profile-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 20px 30px 0 rgba(197, 197, 197, 0.2);
+
+}
+.testimonial-des{
+    font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Media Queries*/
+@media (min-width: 769px){
+    .navbar .navbar-nav li:not(:last-child) a{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    .hero, .contents {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .illustration {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media (max-width: 768px){
+    footer  {
+        text-align: center;
+    }
+    footer span{
+        display: block;
+          margin-left: 0px;
+        margin-top: 15px;
+    }
+    footer .text-right{
+        text-align: center !important;
+    }
+    .illustration{
+        margin-bottom: 50px;
+    }
+    .contents .card {
+        margin-top: 20px;
+        max-width: none;
+    }
+}
