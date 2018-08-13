@@ -229,6 +229,9 @@ margin-bottom: 50px;
 .slider-content{
     position: relative;
 }
+.quotesImg{
+     display: none !important;   
+    }
 .randomImg{
     display: none;
     position: absolute;
@@ -463,7 +466,7 @@ text-align: center;
     margin-top: 80px;
 }
     .quotesImg{
-     display: block;   
+     display: block !important;   
     }
     .testimonial-des{
     font-size: 28px;
