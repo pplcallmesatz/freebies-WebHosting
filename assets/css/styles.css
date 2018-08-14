@@ -345,7 +345,7 @@ background:  rgba(197, 197, 197, 0.1);
         padding-bottom: 80px;
     background-image: url(../img/mask.svg);
     background-position: bottom center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .pricing .pricing-des{
